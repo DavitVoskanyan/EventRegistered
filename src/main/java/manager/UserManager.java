@@ -32,7 +32,7 @@ private EventManager eventManger=new EventManager();
     }
 
     public List<User> getAll() {
-        String sql = "select * from event";
+        String sql = "select * from user";
         List<User> users = new ArrayList<>();
 
         try {
@@ -45,7 +45,7 @@ private EventManager eventManger=new EventManager();
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        return null;
+        return users;
     }
 
     public User getById(int id) {

@@ -50,7 +50,7 @@ public class EventManager {
         } catch (SQLException | ParseException e) {
             e.printStackTrace();
         }
-        return null;
+        return events;
     }
 
     public Event getById(int id) {

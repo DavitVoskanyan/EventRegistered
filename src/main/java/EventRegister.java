@@ -61,7 +61,6 @@ public class EventRegister implements EventCommands {
             System.out.println(event);
         }
 
-
     }
 
     private static void addUser() {
